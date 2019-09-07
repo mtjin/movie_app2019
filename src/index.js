@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
+//component를 사용하고자할때의 형태
+//react는 component를 사용해서 html처럼 작성하려는 경우 필요, 하나의 component만을 rendering 가능
 ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
